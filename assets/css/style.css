@@ -5,7 +5,7 @@ body{
 
 h1{
     color:#fff;
-    font-size: 7em;
+    font-size: 8.2em;
     margin: 25px 0px 25px 0px;
 }
 
@@ -15,27 +15,74 @@ h2{
     margin: 10px;
 }
 
+h3{
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
 p{
-    margin: 10px 0px 10px 0px;
+    margin: 10px 10px 10px 10px;
     font-size: 1.25em;
 }
 
 img{
-    max-width: 350px;
-    margin:10px;
+    max-width: 325px;
+    margin:15px;
     padding: 0px;
 }
 
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+a:hover{
+    font-weight: 600;
+}
+
+button{
+    background: #00363E;
+    color:#fff;
+    border:none;
+    border-radius: 5px;
+    height:30px;
+    width:150px;
+    margin: 0px 0px 0px 20px;
+}
+
+button:hover{
+    color:#EA9E00;
+}
+
+#navbar{
+    background-color: #00363E;
+    height: 35px;
+    width: 100%;
+    border-bottom: 5px solid #EA9E00;
+    color:#fff;
+    top:0px;
+    padding-top: 20px;
+    /* margin-bottom: 100px;
+    position: fixed; */
+}
+
+.navlink{
+    margin: 10px 10px 10px 20px;
+}
 .center{
     max-width: 1200px;
     margin:auto;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .content{
     background: rgba(255, 255, 255, 0.25);
-    max-width: 1000px;
+    max-width: 1250px;
     color: #2d2d2d;
-    margin:10px;
+    margin:10px 10px 100px 10px;
     float: left;
     z-index: 1000;
 }
@@ -54,6 +101,24 @@ img{
     max-width: 50px;
     margin: 10px 10px 10px 25px;
 }
+
+.logo:hover{
+    border-radius:5px;
+    background-color: #EA9E00;
+}
+
+.full{
+    width: 100%;
+}
+
+.project{
+    max-width: 355px;
+    min-height: 425px;    
+    margin:0px 0px 25px 26px;
+    float:left;
+}
+
+
 /*create shape on bg */
 .shape1 {
     /* background-color: #EA9E00; */
@@ -63,7 +128,7 @@ img{
 	border-right: 650px solid #EA9E00;
     border-bottom: 800px solid transparent;
     position: relative;
-    right: -1000px;
+    right: -900px;
     z-index: -1;
 }
 
@@ -74,7 +139,14 @@ img{
 	border-top: 700px solid transparent;
 	border-left: 500px solid #620037;
     border-bottom: 300px solid transparent;
-    position: relative;
+    position: absolute;
     z-index: -2;
-    top: -1200px;
+    top: 10px;
+}
+
+#top-icon{
+    position:fixed;
+    bottom:20px;
+    right: 5px;
+    max-width: 75px;
 }
