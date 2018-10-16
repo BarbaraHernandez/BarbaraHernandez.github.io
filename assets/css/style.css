@@ -118,6 +118,12 @@ button:hover{
     float:left;
 }
 
+.contact{
+    width:515px;
+    margin: 0px 25px 10px 25px;
+    float:left;
+}
+
 
 /*create shape on bg */
 .shape1 {
