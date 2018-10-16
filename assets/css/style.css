@@ -37,6 +37,7 @@ img{
     color: #2d2d2d;
     margin:10px;
     float: left;
+    z-index: 1000;
 }
 
 .block{
@@ -46,26 +47,34 @@ img{
 }
 
 #links{
-    background-color: #fff;
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .logo{
     max-width: 50px;
+    margin: 10px 10px 10px 25px;
 }
-/* example create shape on bg */
+/*create shape on bg */
 .shape1 {
-    background-color: #EA9E00;
-    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-    padding: 65px 10px;
+    /* background-color: #EA9E00; */
+    width: 0;
+	height: 0;
+	border-top: 350px solid transparent;
+	border-right: 650px solid #EA9E00;
+    border-bottom: 800px solid transparent;
+    position: relative;
+    right: -1000px;
     z-index: -1;
-    float: right;
-    width:600px;
 }
 
 .shape2{
-    background-color: #620037;
-    clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
-    padding: 65px 10px;
-    z-index: -100;
-    width: 200px;
+    /* background-color: #620037;	 */
+    width: 0;
+	height: 0;
+	border-top: 700px solid transparent;
+	border-left: 500px solid #620037;
+    border-bottom: 300px solid transparent;
+    position: relative;
+    z-index: -2;
+    top: -1200px;
 }
