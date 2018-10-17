@@ -1,4 +1,5 @@
 body{
+    width:100%;
     background-color: #00363E;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
@@ -63,8 +64,6 @@ button:hover{
     color:#fff;
     top:0px;
     padding-top: 20px;
-    /* margin-bottom: 100px;
-    position: fixed; */
 }
 
 .navlink{
@@ -101,12 +100,12 @@ button:hover{
 
 .logo{
     max-width: 50px;
-    margin: 10px 10px 10px 25px;
+    margin: 10px 10px 10px 22px;
 }
 
 .logo:hover{
-    border-radius:5px;
-    background-color: #EA9E00;
+    border-radius:15px;
+    border: solid 2px #EA9E00;
 }
 
 .full{
@@ -169,4 +168,193 @@ button:hover{
     bottom:20px;
     right: 5px;
     max-width: 75px;
+}
+
+/*Responsivity*/
+
+/*smallest screens*/
+@media screen and (max-width:480px){
+    h1{
+        font-size: 2em;
+        margin-left: 10px;
+    }
+
+    img{
+        max-width: 100%;
+        margin-left:0px;
+    }
+    
+    .content{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
+    .block{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
+    .logo{
+        margin-left: 18px;
+        margin-right: 0px;
+    }
+
+    .project{
+        max-width:100%;
+        margin-left:0px;
+    }
+
+    .preview{
+        max-width: 100%;
+        margin-right:0px;
+    }
+
+    button{
+        width: 120px;
+    }
+
+    .hi-viz{
+        font-size: 1.5em;
+    }
+
+    .contact{
+        max-width: 95%;
+    }
+
+    .map{
+        display:none;
+    }
+
+    #top-icon{
+        position: absolute;
+        right:10px;
+        top:3050px;
+    }
+}
+
+/*mid-size screens*/
+@media screen and (max-width:800px){
+    h1{
+        font-size: 3em;
+        margin-left: 10px;
+    }
+
+    img{
+        max-width: 100%;
+        margin-left:0px;
+    }
+    
+    .content{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
+    .block{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
+    .logo{
+        margin-left: 18px;
+        margin-right: 0px;
+    }
+
+    .project{
+        max-width:100%;
+        margin-left:0px;
+    }
+
+    .preview{
+        max-width: 100%;
+        margin-right:0px;
+    }
+
+    button{
+        width: 120px;
+    }
+
+    .hi-viz{
+        font-size: 1.5em;
+    }
+
+    .contact{
+        max-width: 95%;
+    }
+
+    .map{
+        display:none;
+    }
+
+    #top-icon{
+        position: absolute;
+        right:10px;
+        top:3350px;
+    }
+}
+
+@media screen and (min-width:675px){
+    img{
+        margin-left:15px;
+    }   
+}
+
+@media screen and (max-width:1200px){
+    h1{
+        font-size: 5em;
+        margin-left: 10px;
+    }
+
+    img{
+        max-width: 100%;
+        margin-left:15px;
+    }
+    
+    .content{
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right:0px;
+    }
+
+    .block{
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right:0px;
+    }
+
+    .logo{
+        margin-left: 18px;
+        margin-right: 0px;
+    }
+
+    .project{
+        max-width:100%;
+        margin-left:0px;
+    }
+
+    .preview{
+        max-width: 95%;
+    }
+
+    button{
+        width: 150px;
+        margin-left:150px;
+    }
+
+    .hi-viz{
+        font-size: 1.5em;
+    }
+
+    .contact{
+        max-width: 90%;
+    }
+
+    #top-icon{
+        position: absolute;
+        right:10px;
+        top:4350px;
+    }
 }
