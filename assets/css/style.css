@@ -23,6 +23,7 @@ h3{
 p{
     margin: 10px 10px 10px 10px;
     font-size: 1.25em;
+    line-height: 1.5em;
 }
 
 img{
@@ -91,6 +92,7 @@ button:hover{
     background: rgba(255, 255, 255, 0.4);
     padding:5px;
     margin: 10px;
+    max-width: 750px;
 }
 
 #links{
@@ -119,9 +121,21 @@ button:hover{
 }
 
 .contact{
-    width:515px;
-    margin: 0px 25px 10px 25px;
+    width:450px;
+    margin: 10px 25px 10px 25px;
     float:left;
+}
+
+.map{
+    width:auto;
+    max-width: 600px;
+    float:left;
+    margin-left:25px;
+    margin-bottom:25px;
+}
+
+.hi-viz{
+    font-size: 2em;
 }
 
 
@@ -134,7 +148,7 @@ button:hover{
 	border-right: 650px solid #EA9E00;
     border-bottom: 800px solid transparent;
     position: relative;
-    right: -900px;
+    right: -1000px;
     z-index: -1;
 }
 
