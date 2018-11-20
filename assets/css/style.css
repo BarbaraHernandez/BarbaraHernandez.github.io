@@ -146,8 +146,8 @@ button:hover{
 	border-top: 350px solid transparent;
 	border-right: 650px solid #EA9E00;
     border-bottom: 800px solid transparent;
-    position: relative;
-    right: -1000px;
+    position: absolute;
+    right: 0px;
     z-index: -1;
 }
 
