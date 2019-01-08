@@ -24,7 +24,7 @@
 * [Dish Set Go](https://github.com/BarbaraHernandez/The-Sharpening-House)
     * A team project. My work included: front end design and navigation
 * [LocalVote](https://github.com/BarbaraHernandez/localvote)
-    * A team project. My work included: SCRUM master, front end design, front end javascrip
+    * A team project. My work included: SCRUM master, front end design, front end javascript
 * [Train Tracks](https://github.com/BarbaraHernandez/TrainTimes-week07-hw)
     * A solo project
 * [Crystal Collector](https://github.com/BarbaraHernandez/unit-4-game)
