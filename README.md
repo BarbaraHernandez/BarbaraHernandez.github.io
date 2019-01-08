@@ -33,7 +33,7 @@
     * A solo project. In progress but to be deployed in a real world setting (hence branding)
 
 ## About Me
-I am an organized person by nature. I have a methodical, compartmentalized approach to work. I am also and excellent communicator, and I work well in teams. There is no task too small for my attention. I am the person who will do whatever the project requires of me.
+I am an organized person by nature. I have a methodical, compartmentalized approach to work. I am also an excellent communicator, and I work well in teams. There is no task too small for my attention. I am the person who will do whatever the project requires of me.
 
 ## About My Portfolio
 I have intentionally not used a CSS framework for my portfolio. I wanted to show what I can do with just my own CSS.
