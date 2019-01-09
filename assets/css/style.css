@@ -100,12 +100,15 @@ button:hover{
 
 .logo{
     max-width: 50px;
-    margin: 10px 10px 10px 22px;
+    margin: 10px 5px 10px 22px;
+    border-radius:15px;
+    border: solid 2px transparent;
 }
 
 .logo:hover{
     border-radius:15px;
     border: solid 2px #EA9E00;
+    background-color: #EA9E00;
 }
 
 .full{
@@ -114,7 +117,7 @@ button:hover{
 
 .project{
     max-width: 355px;
-    min-height: 380px;    
+    min-height: 425px;    
     margin:0px 0px 25px 26px;
     float:left;
 }
@@ -173,7 +176,7 @@ button:hover{
 /*Responsivity*/
 
 /*smallest screens*/
-@media screen and (max-width:480px){
+@media screen and (max-width:480px){ 
     h1{
         font-size: 2em;
         margin-left: 10px;
@@ -302,7 +305,7 @@ button:hover{
     img{
         margin-left:15px;
     }   
-}
+} 
 
 @media screen and (min-width:801px) and (max-width:1200px){
     h1{
