@@ -168,9 +168,10 @@ button:hover{
 
 #top-icon{
     position:fixed;
-    bottom:20px;
-    right: 5px;
+    bottom:1.5em; 
+    right: 0.25em;
     max-width: 75px;
+    background-attachment: scroll;
 }
 
 /*Responsivity*/
@@ -233,9 +234,7 @@ button:hover{
     }
 
     #top-icon{
-        position: absolute;
-        right:10px;
-        top:3050px;
+        max-width: 50px;
     }
 }
 
@@ -295,9 +294,7 @@ button:hover{
     }
 
     #top-icon{
-        position: absolute;
-        right:10px;
-        top:3350px;
+        max-width: 70px;
     }
 }
 
@@ -358,8 +355,6 @@ button:hover{
     }
 
     #top-icon{
-        position: absolute;
-        right:10px;
-        top:4350px;
+        max-width: 75px;
     }
 }
