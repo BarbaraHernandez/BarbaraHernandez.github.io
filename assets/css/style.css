@@ -63,8 +63,8 @@ button{
     border:none;
     border-radius: 5px;
     height:30px;
-    width:150px;
-    margin: 0px 0px 0px 20px;
+    width:125px;
+    margin: 0px 10px 0px 10px;
 }
 
 button:hover{
@@ -388,10 +388,10 @@ button:hover{
         max-width: 100%;
     }
 
-    button{
+    /* button{
         width: 150px;
         margin-left:150px;
-    }
+    } */
 
     .hi-viz{
         font-size: 1.5em;
