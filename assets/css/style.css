@@ -177,6 +177,10 @@ button:hover{
     color: #2d2d2d;
 }
 
+.extra-opaque{
+    background: rgba(255, 255, 255, 0.75);
+}
+
 
 /*create shape on bg */
 .shape1 {
