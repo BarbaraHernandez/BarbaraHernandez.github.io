@@ -1,17 +1,17 @@
 body{
     width:100%;
-    background-color: #00363E;
+    background-color: #272f3d;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 h1{
-    color:#fff;
+    color:#f5f5f5;
     font-size: 8.2em;
     margin: 25px 0px 25px 0px;
 }
 
 h2{
-    color:#fff;
+    color:#f5f5f5;
     font-size: 2em;
     margin: 10px;
 }
@@ -49,7 +49,7 @@ img{
 }
 
 a{
-    color:#fff;
+    color:#f5f5f5;
     text-decoration: none;
 }
 
@@ -58,8 +58,8 @@ a:hover{
 }
 
 button{
-    background: #00363E;
-    color:#fff;
+    background: #323e52;
+    color:#f5f5f5;
     border:none;
     border-radius: 5px;
     height:30px;
@@ -67,16 +67,12 @@ button{
     margin: 0px 10px 0px 10px;
 }
 
-button:hover{
-    color:#EA9E00;
-}
-
 #navbar{
-    background-color: #00363E;
+    background-color: #272f3d;
     height: 35px;
     width: 100%;
-    border-bottom: 5px solid #EA9E00;
-    color:#fff;
+    border-bottom: 5px solid #45536c;
+    color:#f5f5f5;
     top:0px;
     padding-top: 20px;
 }
@@ -143,8 +139,13 @@ button:hover{
 
 .logo:hover{
     border-radius:15px;
-    border: solid 2px #EA9E00;
-    background-color: #EA9E00;
+    border: solid 2px #cc9090;
+    background-color: #cc9090;
+}
+
+button:hover{
+    background: #283242;
+    font-weight: bold;
 }
 
 .full{
@@ -184,11 +185,11 @@ button:hover{
 
 /*create shape on bg */
 .shape1 {
-    /* background-color: #EA9E00; Yellow */
+    /*former background-color: #EA9E00; Yellow */
     width: 0;
 	height: 0;
 	border-top: 350px solid transparent;
-	border-right: 650px solid #EA9E00;
+	border-right: 650px solid #576480;
     border-bottom: 800px solid transparent;
     position: fixed;
     right: 0px;
@@ -198,11 +199,11 @@ button:hover{
 }
 
 .shape2{
-    /* background-color: #620037; Magenta */
+    /*former background-color: #620037; Magenta */
     width: 0;
 	height: 0;
 	border-top: 700px solid transparent;
-	border-left: 500px solid #620037;
+	border-left: 500px solid #b45c5c;
     border-bottom: 300px solid transparent;
     position: fixed;
     z-index: -1;
