@@ -24,7 +24,7 @@ h3{
 
 p{
     margin: 10px 10px 10px 10px;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.5em;
 }
 
@@ -34,11 +34,12 @@ img{
     /* max-width: 325px; */
     margin:15px;
     padding: 0px;
+    border-radius: 5px;
 }
 
 #headshot{
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 274px;
+    max-height: 285px;
     margin: 15px;
     display: flex;
 }
@@ -71,7 +72,6 @@ button{
     background-color: #272f3d;
     height: 35px;
     width: 100%;
-    border-bottom: 5px solid #45536c;
     color:#f5f5f5;
     top:0px;
     padding-top: 20px;
@@ -85,6 +85,7 @@ button{
     display: flex;
     flex-flow: column;
     justify-content: center;
+    align-items: center;
 }
 
 .text-center{
@@ -96,6 +97,10 @@ button{
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
+
+    div{
+        border-radius: 15px;
+    }
 }
 
 .content{
@@ -128,19 +133,35 @@ button{
 
 #links{
     background: rgba(255, 255, 255, 0.4);
+    padding: 0px 10px;
+}
+
+@keyframes color_change {
+	from {color: cyan;}
+	to { color: greenyellow;}
+}
+
+.selected-div{
+    animation-name: color_change 1s infinite alternate;
 }
 
 .logo{
-    max-width: 50px;
-    margin: 10px 5px 10px 23px;
+    font-size: 50px;
+    width: 50px;
+    margin: 10px 5px;
     border-radius:15px;
     border: solid 2px transparent;
+    padding: 5px;
+}
+
+.logo-left{
+    padding: 5px 0px 5px 6px;
 }
 
 .logo:hover{
     border-radius:15px;
-    border: solid 2px #cc9090;
-    background-color: #cc9090;
+    border: solid 2px #ea6811;
+    background-color: #ea6811;
 }
 
 button:hover{
@@ -184,32 +205,6 @@ button:hover{
 
 
 /*create shape on bg */
-.shape1 {
-    /*former background-color: #EA9E00; Yellow */
-    width: 0;
-	height: 0;
-	border-top: 350px solid transparent;
-	border-right: 650px solid #576480;
-    border-bottom: 800px solid transparent;
-    position: fixed;
-    right: 0px;
-    top:0px;
-    z-index: -2;
-    background-attachment: scroll;
-}
-
-.shape2{
-    /*former background-color: #620037; Magenta */
-    width: 0;
-	height: 0;
-	border-top: 700px solid transparent;
-	border-left: 500px solid #b45c5c;
-    border-bottom: 300px solid transparent;
-    position: fixed;
-    z-index: -1;
-    top: 10px;
-    background-attachment: scroll;
-}
 
 #top-icon{
     position:fixed;
@@ -415,3 +410,16 @@ button:hover{
         max-width: 75px;
     }
 }
+
+#selected-header {
+    animation: App-logo-spin infinite 1.5s alternate;
+  }
+
+@keyframes App-logo-spin {
+    from {
+      color: yellowgreen;
+    }
+    to {
+      color:rgba(124, 255, 1, 0.004);
+    }
+  }

@@ -10,15 +10,15 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 
         <!-- Navigation -->
-        <div id="navbar">
+        <div id="navbar" >
             <div id="text-links">
-                <a class="navlink" href="#about-div">about</a>
+                <a class="navlink" href="#about-div"><span aria-hidden="true" id="selected-header">&#9616; </span>about</a>
                 <a class="navlink" href="#projects-div">projects</a>
-                <a class="navlink" href="#contact-div">contact</a>
             </div>
         </div>
         
@@ -30,12 +30,12 @@
             <!-- bio -->
             <div class="content no-bg" id="about-div">
                 <div class="block center">
-                    <img id="headshot" src="assets/images/dtdlth.jpg" alt="headshot">
+                    <img id="headshot" src="assets/images/hssmall.jpg" alt="headshot">
                     <div class="block" id="links">
-                        <a href="https://www.linkedin.com/in/barbara-hernandez-23aa2291/"><img class="logo" src="assets/images/linkedin.png" alt="linked in"></a>
-                        <a href="https://github.com/BarbaraHernandez"><img class="logo" src="assets/images/github.png" alt="github"></a>
-                        <a href="assets/CV_BARBARA_HERNANDEZ.pdf" target="_blank"><img class="logo" src="assets/images/resumeicon.png" alt="CV"></a>
-                        <a href="mailto:barndez@gmail.com"><img class="logo" src="assets/images/emailicon.png" alt="email"></a>
+                        <a href="https://www.linkedin.com/in/barbara-hernandez-23aa2291/"><span class="fa fa-linkedin logo logo-left" style="font-size:50px"></span></a>
+                        <a href="https://github.com/BarbaraHernandez"><span class="fa fa-github logo logo-left" style="font-size:50px" alt="github"></span></a>
+                        <a href="assets/CV_BARBARA_HERNANDEZ.pdf" target="_blank"><span class="fa fa-file logo logo-left" style="font-size:50px" alt="PDF of Curriculum Vitae"></span></a>
+                        <a href="mailto:bandezanne@gmail.com"><span class="fa fa-envelope logo" style="font-size:50px"></span></a>
                     </div> 
                 </div>
                 <div class="block narrower">
@@ -44,13 +44,13 @@
                     </div> 
                     <!--bio text-->
                     <div class="block extra-opaque">
-                        <p>I'm a full stack web developer who looks forward to challenge and change.</p>
-                        <p>I believe in intuitive UI and crisp styling.</p>
-                        <p>I want everyone to love Javascript as much as I do, but I can't deny that it feels great to write a solid microservice in Java, too.</p>
-                        <p>I could write SQL all day.</p>
-                        <p>Because of my background as a project manager, I am a verstatile team member. My team mates describe me as hard-working, organized, and reliable.</p>
-                        <p>On projects, I don't settle for understanding just one piece. This allows me to help team members with both front and back end code.</p>
-                        <p>Lately, I am interested in light weight front ends and cloud deployment. I enjoy collaboration. My most prized skill is figuring out bugs and errors in Javascript.</p>
+                        <p>I'm a full stack web developer, but at my core I am a problem solver.</p>
+                        <p>Once I see a problem, I need to see the solution, whether that means assissting others or doing it myself.</p>
+                        <p>Developers, myself included, must be solution oriented.</p>
+                        <p>Our software is not the end goal. The solution it provides is. In this pursuit, there is no room for ego.</p>
+                        <p>I am passionate about the growth of my team and our product.</p>
+                        <p>My teammates describe me as dedicated, strategic, and a natural leader and mentor. </p>
+                        <p>"How can I be of service?" is my guiding principle.</p>
                     </div>
                 </div>              
             </div>
@@ -117,34 +117,10 @@
                 </div>    
                 
             </div>
-
-            <!--Contact-->   
-            <div class = "content" id="contact-div">
-                <div class="full">
-                    <h2 class="text-center">Contact Me</h2>
-                </div>
-                <div class="block map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212270.7411321579!2d-84.56068880457461!3d33.767633772689834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5045d6993098d%3A0x66fede2f990b630b!2sAtlanta%2C+GA!5e0!3m2!1sen!2sus!4v1539674437302" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
-                </div>
-                <div class="block no-bg">
-                    <div class="block">
-                        <h3>E-Mail:</h3>
-                        <a class="hi-viz" href="mailto:barndez@gmail.com">barndez@gmail.com</a>
-                    </div>  
-                    <div class="block">
-                        <h3>Phone #</h3>
-                        <a class="hi-viz" href="tel:+14702226181">470-222-6181</a>
-                    </div>
-                </div>
-            </div>
         </div>
-    
-        <!---background shapes-->
-        <div class="shape1"></div>
-        <div class="shape2"></div>
 
         <!--jump to top icon-->
-        <a href="#navbar"><img id="top-icon" src="assets/images/toparrowshadowed.png"></a>
+        <a href="#navbar"><img aria-hidden="true" id="top-icon" class="lex-icon" src="assets/images/toparrowshadowed.png"><span class="sr-only">jump to the top of the page</span></a>
 
     </body>
 
