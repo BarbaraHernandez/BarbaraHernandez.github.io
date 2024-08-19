@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/reset.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/newStyle.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
@@ -17,50 +17,47 @@
         <!-- Navigation -->
         <div id="navbar" >
             <div id="text-links">
-                <a class="navlink" href="#about-div"><span aria-hidden="true" id="selected-header">&#9616; </span>about</a>
+                <a class="navlink" href="#about-div"><span aria-hidden="true" class="selected-header">&#9616; </span>about</a>
                 <a class="navlink" href="#projects-div">projects</a>
             </div>
         </div>
         
         <!-- Main content -->
-        <div class="wrapper">
+        <div id="page-wrapper">
 
             <h1>Barbara Hernandez</h1>
 
             <!-- bio -->
-            <div class="content no-bg" id="about-div">
-                <div class="block center">
-                    <img id="headshot" src="assets/images/hssmall.jpg" alt="headshot">
-                    <div class="block" id="links">
-                        <a href="https://www.linkedin.com/in/barbara-hernandez-23aa2291/"><span class="fa fa-linkedin logo logo-left" style="font-size:50px"></span></a>
-                        <a href="https://github.com/BarbaraHernandez"><span class="fa fa-github logo logo-left" style="font-size:50px" alt="github"></span></a>
-                        <a href="assets/CV_BARBARA_HERNANDEZ.pdf" target="_blank"><span class="fa fa-file logo logo-left" style="font-size:50px" alt="PDF of Curriculum Vitae"></span></a>
-                        <a href="mailto:bandezanne@gmail.com"><span class="fa fa-envelope logo" style="font-size:50px"></span></a>
-                    </div> 
-                </div>
-                <div class="block narrower">
-                    <div class="full">
-                        <h2>Who am I?</h2>
-                    </div> 
+            <div id="about-div" class="content-section">
+                <h2>Who am I?<span aria-hidden="true" class="section-viewed">&#9616; </span></h2>
+                <div id="about-content">
+                    <div id="bio-visual" class="block center">
+                        <img id="headshot" src="assets/images/hssmall.jpg" alt="headshot">
+                        <div id="links">
+                            <a href="https://www.linkedin.com/in/barbara-hernandez-23aa2291/"><span class="fa fa-linkedin logo logo-left" style="font-size:50px"></span></a>
+                            <a href="https://github.com/BarbaraHernandez"><span class="fa fa-github logo logo-left" style="font-size:50px" alt="github"></span></a>
+                            <a href="assets/CV_BARBARA_HERNANDEZ.pdf" target="_blank"><span class="fa fa-file logo logo-left" style="font-size:50px" alt="PDF of Curriculum Vitae"></span></a>
+                            <a href="mailto:bandezanne@gmail.com"><span class="fa fa-envelope logo" style="font-size:50px"></span></a>
+                        </div> 
+                    </div>
                     <!--bio text-->
-                    <div class="block extra-opaque">
-                        <p>I'm a full stack web developer, but at my core I am a problem solver.</p>
+                    <div id="bio-text" class="block">
+                        <p>I'm a full stack developer, but at my core I am a problem solver.</p>
                         <p>Once I see a problem, I need to see the solution, whether that means assissting others or doing it myself.</p>
                         <p>Developers, myself included, must be solution oriented.</p>
                         <p>Our software is not the end goal. The solution it provides is. In this pursuit, there is no room for ego.</p>
-                        <p>I am passionate about the growth of my team and our product.</p>
+                        <p>I am passionate about the growth of my team and my projects.</p>
                         <p>My teammates describe me as dedicated, strategic, and a natural leader and mentor. </p>
                         <p>"How can I be of service?" is my guiding principle.</p>
                     </div>
-                </div>              
+                </div>        
             </div>
 
             <!-- projects -->
-            <div class="content" id="projects-div">
-                <div class="full">
-                    <h2 class="text-center">Projects</h2>
-                </div>
-                <div class="project block">
+            <div id="projects-div" class="content-section">
+                <h2>Projects<span aria-hidden="true" class="section-viewed">&#9616; </span></h2>
+                <div id="projects-content">
+                    <div class="project block">
                         <h3 class="text-center">ProGro</h3>
                         <a href="https://github.com/BarbaraHernandez/progro"><img class="preview" src="assets/images/progro.png"></a>
                         <p>Designed to encourage employee engagement, this lets users suggest, vote for, and join projects. Manager oversight built in.</p>
@@ -69,53 +66,53 @@
                             <a href="https://progro-demo.herokuapp.com/"><button id="tt-ld">live demo</button></a>
                         </div>        
                     </div>
-                <div class="project block">
-                    <h3 class="text-center">Dish Set Go</h3>
-                    <a href="https://barbarahernandez.github.io/Dish-Set-Go/splash.html"><img class="preview" src="assets/images/dishsetgo.png"></a>
-                    <p>A web application designed for users to quickly search for recipes and send a list of ingredients to themselves via text.</p>
-                    <div class="wrapper">
-                        <a href="https://github.com/BarbaraHernandez/Dish-Set-Go"><button id="dsg-gh">github</button></a>
-                        <a href="https://barbarahernandez.github.io/Dish-Set-Go/"><button id="dsg-ld">live demo</button></a>
+                    <div class="project block">
+                        <h3 class="text-center">Dish Set Go</h3>
+                        <a href="https://barbarahernandez.github.io/Dish-Set-Go/splash.html"><img class="preview" src="assets/images/dishsetgo.png"></a>
+                        <p>A web application designed for users to quickly search for recipes and send a list of ingredients to themselves via text.</p>
+                        <div class="wrapper">
+                            <a href="https://github.com/BarbaraHernandez/Dish-Set-Go"><button id="dsg-gh">github</button></a>
+                            <a href="https://barbarahernandez.github.io/Dish-Set-Go/"><button id="dsg-ld">live demo</button></a>
+                        </div>
                     </div>
-                </div>
-                <div class="project block">
-                    <h3 class="text-center">Crystal Collector</h3>
-                    <a href="https://barbarahernandez.github.io/unit-4-game/"><img class="preview" src="assets/images/crystalcollector.png"></a>
-                    <p>A simple game where users must accrue points to exactly hit a target number. All of the artwork is custom made for this project.</p>
-                    <div class="wrapper">
-                        <a href="https://github.com/BarbaraHernandez/crystal-collector"><button id="cc-gh">github</button></a>
-                        <a href="https://barbarahernandez.github.io/crystal-collector/"><button id="cc-ld">live demo</button></a>
-                    </div>                    
-                </div>
-                <!-- line break  -->
-                <div class="project block">
-                    <h3 class="text-center">Train Tracks</h3>
-                    <a href="https://barbarahernandez.github.io/TrainTracks/"><img class="preview" src="assets/images/traintracks.png"></a>
-                    <p>A web application which stores train schedules in firebase, allowing users to view information across devices.</p>
-                    <div class="wrapper">
-                        <a href="hhttps://github.com/BarbaraHernandez/TrainTracks"><button id="tt-gh">github</button></a>
-                        <a href="https://barbarahernandez.github.io/TrainTracks/"><button id="tt-ld">live demo</button></a>
+                    <div class="project block">
+                        <h3 class="text-center">Crystal Collector</h3>
+                        <a href="https://barbarahernandez.github.io/unit-4-game/"><img class="preview" src="assets/images/crystalcollector.png"></a>
+                        <p>A simple game where users must accrue points to exactly hit a target number. All of the artwork is custom made for this project.</p>
+                        <div class="wrapper">
+                            <a href="https://github.com/BarbaraHernandez/crystal-collector"><button id="cc-gh">github</button></a>
+                            <a href="https://barbarahernandez.github.io/crystal-collector/"><button id="cc-ld">live demo</button></a>
+                        </div>                    
+                    </div>
+                    <!-- line break  -->
+                    <div class="project block">
+                        <h3 class="text-center">Train Tracks</h3>
+                        <a href="https://barbarahernandez.github.io/TrainTracks/"><img class="preview" src="assets/images/traintracks.png"></a>
+                        <p>A web application which stores train schedules in firebase, allowing users to view information across devices.</p>
+                        <div class="wrapper">
+                            <a href="hhttps://github.com/BarbaraHernandez/TrainTracks"><button id="tt-gh">github</button></a>
+                            <a href="https://barbarahernandez.github.io/TrainTracks/"><button id="tt-ld">live demo</button></a>
+                        </div>  
                     </div>  
-                </div>  
-                <div class="project block">
-                    <h3 class="text-center">LocalVote</h3>
-                    <a href="https://github.com/BarbaraHernandez/localvote"><img class="preview" src="assets/images/lclvt.png"></a>
-                    <p>Intended for use in local government, users can log in via Facebook and then submit or vote on policy proposals.</p>
-                    <div class="wrapper">
-                        <a href="https://github.com/BarbaraHernandez/localvote"><button id="ff-gh">github</button></a>
-                        <a href="https://local-vote.herokuapp.com/"><button id="ff-ld">live demo</button></a>
-                    </div>                    
-                </div>
-                <div class="project block">
-                    <h3 class="text-center">Time Tracking</h3>
-                    <a href="https://barbarahernandez.github.io/timetrackingsite/"><img class="preview" src="assets/images/hcits.png"></a>
-                    <p>This application is a time tracking solution for a small business. This is the administrator view, which displays multiple accounts to edit.</p>
-                    <div class="wrapper">
-                        <a href="https://github.com/BarbaraHernandez/timetrackingsite"><button id="ff-gh">github</button></a>
-                        <a href="https://barbarahernandez.github.io/timetrackingsite/"><button id="ff-ld">live demo</button></a>
-                    </div>                    
-                </div>    
-                
+                    <div class="project block">
+                        <h3 class="text-center">LocalVote</h3>
+                        <a href="https://github.com/BarbaraHernandez/localvote"><img class="preview" src="assets/images/lclvt.png"></a>
+                        <p>Intended for use in local government, users can log in via Facebook and then submit or vote on policy proposals.</p>
+                        <div class="wrapper">
+                            <a href="https://github.com/BarbaraHernandez/localvote"><button id="ff-gh">github</button></a>
+                            <a href="https://local-vote.herokuapp.com/"><button id="ff-ld">live demo</button></a>
+                        </div>                    
+                    </div>
+                    <div class="project block">
+                        <h3 class="text-center">Time Tracking</h3>
+                        <a href="https://barbarahernandez.github.io/timetrackingsite/"><img class="preview" src="assets/images/hcits.png"></a>
+                        <p>This application is a time tracking solution for a small business. This is the administrator view, which displays multiple accounts to edit.</p>
+                        <div class="wrapper">
+                            <a href="https://github.com/BarbaraHernandez/timetrackingsite"><button id="ff-gh">github</button></a>
+                            <a href="https://barbarahernandez.github.io/timetrackingsite/"><button id="ff-ld">live demo</button></a>
+                        </div>                    
+                    </div>
+                </div>   
             </div>
         </div>
 

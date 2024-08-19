@@ -95,12 +95,9 @@ button{
 .wrapper{
     width: 100%;
     display:flex;
+    flex-direction: column;
     flex-flow: row wrap;
     justify-content: center;
-
-    div{
-        border-radius: 15px;
-    }
 }
 
 .content{
@@ -121,6 +118,9 @@ button{
     padding:5px;
     margin: 10px;
     /* max-width: 810px; */
+    /* :hover{
+        background: rgba(255, 255, 255, 0.5);
+    } */
 }
 
 .no-bg{
@@ -130,6 +130,10 @@ button{
 .narrower{
     max-width: 810px;
 }
+
+/* #about-div{
+    padding:10em;
+} */
 
 #links{
     background: rgba(255, 255, 255, 0.4);
