@@ -228,12 +228,13 @@ button:hover{
 @media screen and (max-width:1080px){ 
 
     h1{
-        margin: 0px 20px;
+        margin: 20px;
         font-size: 4em;
         text-align: left;
     }
 
     #about-content{
+        width: fit-content;
         flex-direction: column;
     }
 
@@ -243,8 +244,8 @@ button:hover{
 
     #bio-text{
         width:fit-content;
-        padding: 0;
-        margin: 10px auto;
+        padding: 10px;
+        margin: 30px auto;
     }
 
     .project{
